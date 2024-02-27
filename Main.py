@@ -1,30 +1,31 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from math import sqrt
 
 df = pd.read_csv('Data/Laptop.csv', delimiter=';')
 
-
+# Calculing mean, median and standard deviation of laptop prices using Pandas
 def mean():
     avg_price = df['price'].mean()
     print(f'The average price of all laptop is: {avg_price}')
     
-    
-mean()
 
 def median():
     median_price = df['price'].median()
     print(f"The median of all laptop prices is: {median_price}")
     
-median()
-
+    
 def standard_deviation():
     std_dev_price = df['price'].std()
     print(f"Standard deviation price of all laptop is: {std_dev_price}")
-
+    
+mean()    
+median()
 standard_deviation()
 
+
+
+# Finding the most expensive and cheapest laptop 
 def expensive_laptop():
     laptop = df[df['price'] == df['price'].max()] 
     result_brand = laptop[['brand', 'model']].to_string(header = False, index = False)
@@ -42,12 +43,10 @@ cheapest_laptop()
 
 
 
+# Counting brands laptop and creating a bar chart
 def count_brand():
     brand_counts = df['brand'].value_counts()
-    print("Counts of each brand:")
-    print(brand_counts)
-    
-    # Creates a bar chart
+
     plt.bar(brand_counts.index, brand_counts)
 
     plt.xlabel('Brand laptop')
@@ -57,7 +56,9 @@ def count_brand():
     plt.tight_layout()
     plt.show()
     
-# count_brand()
+count_brand()
+   
+   
     
 # Filters laptops by processor:
 def processor():
@@ -80,7 +81,8 @@ def processor():
         print("Here is a list of laptops with an apple processor:")
         print(apple)
     
-# processor()
+processor()
+
 
 
 # Filters laptops by operating system
@@ -109,7 +111,8 @@ def os():
         print("Below is a list of laptops without operating system:")
         print(no_system[['brand', 'model', 'os']])
     
-# os()
+os()
+
 
 
 # Filters laptops by price
@@ -120,7 +123,8 @@ def price():
     laptops_filtered = df.loc[df['price'].between(user_min, user_max, inclusive='both')]
     print(laptops_filtered)
     
-# price()
+price()
+
 
 
 # Laptop price histogram
@@ -130,6 +134,7 @@ plt.ylabel("Number of laptops")
 plt.title("Laptop price distribution")
 plt.grid(True)
 plt.show()
+
 
 
 # Scatter plot laptops
@@ -142,6 +147,7 @@ plt.show()
 
 
 
+# Creates a bar chart that displays the average star rating for each laptop brand
 df['star_rating'] = df['star_rating'].str.replace(',', '.').astype(float)
 avg_star_rating_by_brand = df.groupby('brand')['star_rating'].mean()
 
@@ -155,23 +161,23 @@ plt.tight_layout()
 plt.show()
 
 
+
 # Calculates the sum, mean and median for 'ratings' column using NumPy
 def calculates():
     ratings_array = df['ratings'].values
     
-    # Counts the sum number of ratings
     sum_ratings = np.sum(ratings_array)
     print(f"The sum number of ratings is: {sum_ratings}")
     
-    # Counts the average number of ratings
     avg_ratings = np.mean(ratings_array)
     print(f"The average number of ratings is: {avg_ratings}")
     
-    # Counts the median number of ratings
     median_ratings = np.median(ratings_array)
     print(f"The median number of ratings is: {median_ratings}")
     
 calculates()
+
+
 
 # Finding the most frequently purchased laptop using NumPy
 def popular_laptop_np():
@@ -185,6 +191,8 @@ def popular_laptop_np():
     
 popular_laptop_np()
 
+
+
 # Finding the least frequently purchased laptop using NumPy
 def least_laptop_np():
     rating_array = df['ratings'].values
@@ -196,6 +204,7 @@ def least_laptop_np():
     print(f"The least frequently purchased laptop is {result_brand} which has {min_ratings['ratings']} ratings.")   
 
 least_laptop_np()
+
 
 
 # Chart showing operating system
