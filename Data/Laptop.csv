@@ -1,0 +1,26 @@
+﻿brand;model;processor_brand;processor_name;processor_gnrtn;graphics_brand;graphics_name;os;ram_gb;ram_type;price;star_rating;ratings
+Dell;Vostro 3520;Intel;Core i5;12th;Intel;Iris Xe Graphics;Windows;16 GB;DDR4;2499.00;5,6;5
+Asus;Vivobook 15;Intel;Core i5;12th;Intel;Iris Xe Graphics;Windows;16 GB;DDR4;2549.00;6;2
+Dell;Inspiron 3520;Intel;Core i5;12th;Intel;Iris Xe Graphics;Windows;16 GB;DDR4;2999.00;5,1;30
+HP;255 G9;AMD;Ryzen 5;Missing;AMD;Radeon Graphics;Windows;16 GB;DDR4;2549.00;5,3;12
+HP;250 G9;Intel;Core i5;12th;Intel;Iris Xe Graphics;Windows;16 GB;DDR4;2649.00;5;5
+Asus;Vivobook 15;AMD;Ryzen 5;Missing;AMD;Radeon Graphics;Windows;16 GB;DDR4;2499.00;5,4;12
+Lenovo;ThinkBook 16;Intel;Core i5;Missing;Intel;Iris Xe Graphics;Windows;16 GB;DDR5;3849.00;5,9;9
+Acer;Extensa ;Intel;Core i5;12th;Intel;Iris Xe Graphics;Windows;16 GB;DDR4;2499.00;5,5;20
+Lenovo;V15;Intel;Core i5;12th;Intel;Iris Xe Graphics;Windows;16 GB;DDR4;2549.00;5,7;14
+Asus;ZenBook 14;AMD;Ryzen 5;Missing;AMD;Radeon Graphics;Windows;16 GB;LPDDR4x;3499.00;5,5;119
+Asus;ExpertBook;Intel;Core i3;12th;Intel;Iris Xe Graphics;Windows;16 GB;DDR4;2499.00;5,4;9
+Acer;Chromebook 315;Intel;Celeron N4500;Missing;Intel;Iris Xe Graphics;Chrome OS;8 GB;LPDDR4x;1599.00;5,8;51
+Apple;MacBook Air M2;Apple;M2;Missing;Apple;M2;macOS;8 GB;unified memory;5649.00;5,9;238
+Acer;Nitro 5;AMD;Ryzen 5;4th;NVIDIA;GeForce RTX 3050;No system;16 GB;DDR4;3499.00;5,4;16
+Asus;TUF Gaming F15;Intel;Core i5;11th;NVIDIA;GeForce RTX 3050;No system;16 GB;DDR4;3199.00;5,6;104
+MSI;Bravo 17;AMD;Ryzen 5;Missing;NVIDIA;GeForce RTX 4050;No system;16 GB;DDR5;4299.00;5,9;31
+Apple;MacBook Air M1;Apple;M1;Missing;Apple;M1;macOS;8 GB;unified memory;4549.00;5,9;369
+Dell ;Inspiron 5625;AMD;Ryzen 7;Missing;AMD;Radeon Graphics;Windows;16 GB;DDR4;3666.00;5,8;16
+Dell;Inspiron 3525;AMD;Ryzen 5;Missing;AMD;Radeon Graphics;Windows;16 GB;DDR4;2499.00;5,5;96
+Lenovo;LOQ-15;AMD;Ryzen 5;Missing;NVIDIA;GeForce RTX 4050;No system;16 GB;DDR5;4299.00;5,5;26
+HP;Victus 16;Intel;Core i5;13th;NVIDIA;GeForce RTX 4060;No system;16 GB;DDR5;5199.00;5;10
+Gigabyte;G7 MF;Intel;Core i5;12th;NVIDIA;GeForce RTX 4050;No system;16 GB;DDR4;3989.00;5,3;35
+Asus;TUF Gaming A15;AMD;Ryzen 7;Missing;NVIDIA;GeForce RTX 4050;Windows;16 GB;DDR5;5499.00;5,8;54
+MSI;Bravo 15;AMD;Ryzen 5;Missing;AMD;Radeon RX 6550M;No system;16 GB;DDR5;3099.00;5,6;18
+Asus;X515EA-BQ1877;Intel;Core i5;11th;Intel;Iris Xe Graphics;No system;16 GB;DDR4;1899.00;5,9;48
