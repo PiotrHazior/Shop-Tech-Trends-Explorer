@@ -1,0 +1,24 @@
+﻿brand;model;processor_brand;processor_name;memory;screen_diagonal (in cal);recording_resolution;os;os_version;price;star_rating ;ratings
+Apple;iPhone 15;Apple;A16 Bionic;128;6,1;UHD 4K ;iOS ;17th;3999;5,9;137
+Apple;iPhone 13;Apple;A15 Bionic;128;6,1;UHD 4K ;iOS ;15th;2649;5,9;699
+Samsung;Galaxy M34;Samsung;Exynos 1280;128;6,5;UHD 4K ;Android;13th;1449;5,7;149
+Apple;iPhone 14;Apple;A15 Bionic;128;6,1;UHD 4K ;iOS ;16th;3249;5,8;474
+Xiaomi;Redmi Note 11S;Media;Tek Helio G96;128;6,43;FullHD 1080p;Android;11th;749;5,7;180
+Apple;iPhone 13 Mini;Apple;A15 Bionic;128;5,4;FullHD 1080p;iOS ;15th;2999;5,9;308
+Asus;ROG Phone 6;Qualcomm;Snapdragon 8+ gen 1;512;6,78;UHD 8K;Android;12th;2699;5,8;154
+Samsung;Galaxy A54;Samsung;Exynos 1380;128;6,4;UHD 4K ;Android;13th;1799;5,8;496
+Samsung;Galaxy S23;Qualcomm;Snapdragon 8 gen 2;256;6,1;UHD 8K;Android;13th;3799;5,8;670
+Motorola;moto g52;Qualcomm;Snapdragon 680;256;6,6;FullHD 1080p;Android;12th;699;5,7;96
+Motorola;edge 30 neo;Qualcomm;Snapdragon 695;128;6,28;FullHD 1080p;Android;12th;999;5,4;125
+realme;C53;UNISOC;Spreadtrum T612;128;6,74;FullHD 1080p;Android;13th;699;5,6;28
+Apple;iPhone 15 Pro;Apple;A17 Pro;128;6,1;FullHD 1080p;iOS ;17th;5349;5,8;178
+Xiaomi;Redmi Note 13;Qualcomm;Snapdragon 685;256;6,67;FullHD 1080p;Android;13th;1199;5,8;23
+Nothing;Phone 2;Qualcomm;Snapdragon 8+ gen 1;256;6,7;UHD 4K ;Android;13th;2819;5,9;120
+Xiaomi;POCO X5 Pro;Qualcomm;Snapdragon 778G;256;6,67;UHD 4K ;Android;12th;1499;5,8;289
+Xiaomi;Redmi Note 12 Pro+;Media;Tek Dimensity 1080;256;6,67;FullHD 1080p;Android;12th;1699;5,7;56
+Xiaomi;POCO X5 ;Qualcomm;Snapdragon 695;256;6,67;FullHD 1080p;Android;12th;998;5,6;53
+Motorola;moto e22;Media;Tek Helio G37;64;6,5;FullHD 1080p;Android;12th;349;5,6;90
+Xiaomi;Redmi 12;Media;Tek Helio G88;256;6,79;FullHD 1080p;Android;13th;749;5,5;73
+Samsung;Galaxy S24;Samsung;Exynos 2400;256;6,2;UHD 4K ;Android;14th;4099;5,8;183
+Xiaomi;Redmi Note 12;Qualcomm;Snapdragon 685;128;6,67;FullHD 1080p;Android;13th;749;5,6;309
+Motorola;moto g72;Media;Tek Helio G99;128;6,6;FullHD 1080p;Android;12th;899;5,7;193
